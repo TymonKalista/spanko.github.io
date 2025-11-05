@@ -1,36 +1,13 @@
-h2 {
-    text-align: center;
+input[type="submit"] {
+    background-color: green;
+    padding: 10px;
+    color:white;
+    margin-top: 15px;
 }
 
-div {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-.linki {
-    text-align: right;
-}
-
-.source:hover {
-    color: red;
-}
-
-.info-box {
-    display: flex;
-    flex-direction: row;
-}
-
-@media (max-width: 600px) {
-  .info-box {
-    flex-direction: column;
-  }
-}
-
-
-.zdjecie {
-    height: 200px;  
-    width: 200px;
-    margin-right: 1cm;
-    border: 2px solid red; 
+select,
+input[type="text"]{
+    margin-top: 15px;
+    background-color: blue;
+    padding: 10px;
 }
